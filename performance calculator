@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    float a,s,d,f,g,h,j,k;
+    scanf("%f%f%f%f%f",&a,&s,&d,&f,&g);
+    h=a+s+d+f+g;
+    j=h/5;
+    k=(h/500)*100;
+    printf("%.0f %.2f %.2f",h,j,k);
+    
+    return 0;
+}
