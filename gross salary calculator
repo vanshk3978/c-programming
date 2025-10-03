@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   float a,b,c,d;
+      scanf("%f",&a);
+    if(a<=10000){
+        b=0.20*a;
+        c=0.30*a;
+    }
+    else if(a<=20000){
+        b=0.25*a;
+        c=0.40*a;
+    }
+    else{
+        b=0.30*a;
+        c=0.50*a;
+    }
+    d=a+b+c;
+    printf("%.2f",d);
+    
+    return 0;
+}
